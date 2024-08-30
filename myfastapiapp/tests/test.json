@@ -1,0 +1,75 @@
+{
+    "days": [
+      {
+        "date": "YYYY-MM-DD",
+        "shifts": [
+          {
+            "shift_type": "full_day",
+            "start_time": "09:00",
+            "end_time": "21:00",
+            "staff": [
+              {"email": "email@example.com", "role": "Head Chef"}
+            ]
+          },
+          {
+            "shift_type": "morning",
+            "start_time": "09:00",
+            "end_time": "15:00",
+            "staff": [
+              {"email": "email@example.com", "role": "Grill Chef"},
+              {"email": "another@example.com", "role": "Team Member"}
+            ]
+          },
+          {
+            "shift_type": "afternoon",
+            "start_time": "15:00",
+            "end_time": "21:00",
+            "staff": [
+              {"email": "email@example.com", "role": "Grill Chef"},
+              {"email": "another@example.com", "role": "Team Member"}
+            ]
+          }
+        ]
+      },
+      {
+        "date": "YYYY-MM-DD",
+        "shifts": [
+          {
+            "shift_type": "full_day",
+            "start_time": "09:00",
+            "end_time": "21:00",
+            "staff": [
+              {"email": "email@example.com", "role": "Head Chef"}
+            ]
+          },
+          {
+            "shift_type": "full_day",
+            "start_time": "09:00",
+            "end_time": "21:00",
+            "staff": [
+              {"email": "email@example.com", "role": "Grill Chef"},
+              {"email": "another@example.com", "role": "Team Member"}
+            ]
+          },
+          {
+            "shift_type": "morning",
+            "start_time": "09:00",
+            "end_time": "15:00",
+            "staff": [
+              {"email": "another@example.com", "role": "Team Member"}
+            ]
+          },
+          {
+            "shift_type": "afternoon",
+            "start_time": "15:00",
+            "end_time": "21:00",
+            "staff": [
+              {"email": "email@example.com", "role": "Grill Chef"}
+            ]
+          }
+        ]
+      }
+
+    ]
+  }
+  
